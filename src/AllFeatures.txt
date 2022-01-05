@@ -1,0 +1,30 @@
+First Burndown Chart: https://docs.google.com/spreadsheets/d/1NzPfsopoFPmUPInL9HXJ8efHY9jEQP9TkFduL9XGVaM/edit#gid=1060632366
+Second Burndown Chart: https://docs.google.com/spreadsheets/d/1O1B15is17jbKIJul0I4GBqlgjBK3rkVmaJHJFFa96Iw/edit?usp=sharing
+Third Burndown Chart: https://docs.google.com/spreadsheets/d/1FSMY7zOoyCVO3AUSoFWMJ5XrQ4XA5rdqcxaucMayl3Q/edit?usp=sharing
+Baseball Semester Project - Team 5 - McWakeYer
+
+All Features:
+- ODRAFT "playerName" A-D
+  Lets user draft a player to any league member's team
+- IDRAFT "playerName"
+  Drafts player to user's team (team A)
+- OVERALL
+  Lists all available players in the hitting positions that the user has not yet drafted. They are sorted by the EVALFUN expression and if none is defined then by batting average.
+- POVERALL
+  Lists all the available pitchers sorted by PEVALFUN expression. If no expression is defined then the default is Innings Pitched.
+- TEAM A-D
+  Prints the team list for a given league member
+- STARS A-D
+  Prints the team list for a given league member in the order that the players were drafted
+- RESTORE
+  Restores the current draft progress from a file after prompting the user for a filename.
+- SAVE
+  Saves the current draft progress to a file after prompting the user for a filename.
+- EVALFUN expression
+  Sets the evaluation expression that will be used in the OVERALL display order
+- PEVALFUN expression
+  Sets the evaluation expression that will be used in the POVERALL display order
+- QUIT
+  Exits the program after asking the user if they would like to save and saving the current draft progress if they say yes.
+- HELP
+  Prints out information about how to call the functions defined above.
